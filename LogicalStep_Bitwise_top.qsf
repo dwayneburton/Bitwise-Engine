@@ -295,11 +295,7 @@ set_global_assignment -name VHDL_FILE hex_mux.vhd
 set_global_assignment -name VHDL_FILE PB_Inverters.vhd
 set_global_assignment -name VHDL_FILE Logic_Proc.vhd
 set_global_assignment -name VECTOR_WAVEFORM_FILE waveform_logic_processor_simulation.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform1.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveform1.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.3vwf.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/waveform.vwf
 set_global_assignment -name VHDL_FILE full_adder_1bit.vhd
 set_global_assignment -name VHDL_FILE full_adder_4bit.vhd
 set_global_assignment -name VHDL_FILE "output_files/two-to-one-mux.vhd"
